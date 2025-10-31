@@ -1,4 +1,6 @@
 <?php
+namespace App\Math;
+
 class LuasLingkaran{
     public const PHI = 3.14;
     public int $Jari;
@@ -21,8 +23,4 @@ class LuasLingkaran{
         echo "<br>saya lelah";
     }
 }
-$Lingkaran = new LuasLingkaran(10);
-$Lingkaran->tampil('roda'); //panggil method tampil
-
-LuasLingkaran::testing(); //panggil method static
 
